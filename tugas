@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+  int Bilangan[5];
+  int i;
+  int hasil =0;
+  for ( i=0; i<5; i++)
+  {
+      cout << "Nilai Bilangan [" << i+1 << "]: ";
+      cin >> Bilangan[i];
+   }
+   cout << endl;
+   for (i =0; i<5; i++)
+   {
+    hasil+=Bilangan[i];
+    cout << "hasil ke - "<< i << " adalah : " << hasil << endl ;
+    }
+    cout << endl << "Jumlah seluruh Bilangan : " << hasil ;
+    return 0;
+    
+    }
